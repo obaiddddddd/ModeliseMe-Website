@@ -6,6 +6,8 @@ import { Canvas } from "@react-three/fiber";
 import { Female } from "./components/Female";
 import { useRef } from "react";
 import SupportSection from "./components/SupportSection";
+import { MobileAdSection } from "./components/MobileAdSection";
+import { Footer } from "./components/Footer";
 
 function App() {
   const model1 = useRef();
@@ -49,6 +51,8 @@ function App() {
         Reset
       </button>
       <SupportSection />
+      <MobileAdSection />
+      <Footer />
     </div>
   );
 }

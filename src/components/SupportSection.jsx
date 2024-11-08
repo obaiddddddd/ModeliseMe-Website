@@ -10,7 +10,7 @@ import { DribbbleLogo } from "./Cards/DribbbleLogo";
 import { InstagramLogo } from "./Cards/InstagramLogo";
 const SupportSection = () => {
   return (
-    <div className="gap-[80px] bgbodysection flex flex-col pt-[80px]">
+    <div className="gap-[40px] bgbodysection flex flex-col py-[80px]">
       <div className="flex flex-col font-mulish items-center text-center gap-[32px]">
         <div className="font-[500] text-[56px] w-[872px]">
           We are here to help you out!
@@ -115,7 +115,7 @@ const SupportSection = () => {
             <div className="gap-[6px]">
               <div className="text-[14px] font-[400]">Message</div>
               <textarea
-                className="border-[#E6E8EC] border-[1px] max-h-[106px] rounded-[5px] pl-[18px] w-[100%]"
+                className="border-[#E6E8EC] border-[1px] max-h-[106px] rounded-[5px] pl-[18px] w-[100%] pt-[10px]"
                 placeholder="Tell us about your project..."
               />
             </div>
