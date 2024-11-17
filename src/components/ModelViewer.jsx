@@ -2,10 +2,10 @@ import { Environment, PerspectiveCamera } from "@react-three/drei";
 import { Canvas, useThree } from "@react-three/fiber";
 import { useLayoutEffect, useRef } from "react";
 import { MaleModelSuit } from "./Models/MaleModelSuit";
-import { FemaleModelDress } from "./Models/FemaleModelDress";
 import { FemaleModelJeans } from "./Models/FemaleModelJeans";
 import gsap from "gsap";
 import _ScrollTrigger from "gsap/ScrollTrigger";
+import { FemaleModelDressSmall } from "./Models/FemaleModelDressSmall";
 
 /* eslint-disable react/no-unknown-property */
 gsap.registerPlugin(_ScrollTrigger);
@@ -80,7 +80,7 @@ const Scene = () => {
     <>
       <Environment preset="city" />
       <hemisphereLight intensity={1} />
-      <FemaleModelDress
+      <FemaleModelDressSmall
         position={[
           isXSm ? -0.5 : isSm ? -0.7 : isLg ? -1.4 : -1.6,
           isXSm ? -2 : isSm ? -2.1 : isLg ? -2.2 : -2,
