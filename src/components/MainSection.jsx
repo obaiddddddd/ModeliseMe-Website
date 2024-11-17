@@ -28,11 +28,11 @@ export const MainSection = () => {
           <div className="flex md:mt-[3rem] flex-col lg:flex-row">
             <img
               src={GoogleBadge}
-              className="w-[144px] md:w-[206px] h-auto m-3"
+              className="w-[128px] md:w-[206px] m-1 h-auto md:m-3"
             />
             <img
               src={AppleBadge}
-              className="w-[128px] md:w-[183px] h-auto m-3"
+              className="w-[128px] md:w-[183px] m-1 h-auto md:m-3"
             />
           </div>
         </div>

@@ -11,21 +11,27 @@ export const BodySection = () => {
     <div className="bgbodysection py-[64px]">
       <div className="w-auto h-auto mx-[calc(0.5em+8vw)] 2xl:mx-[calc(0.5em+8vw)] min-[1680px]:mx-[calc(0.5em+16vw)] flex flex-col md:flex-row justify-end gap-[48px]">
         <div className="flex flex-col justify-center">
-          <div className="font-mulish text-[54px] font-[600] leading-tight">
+          <div className="font-mulish text-[36px] md:text-[54px] font-[600] leading-tight">
             {"Explore Key Features You'll Love!"}
           </div>
-          <div className="font-mulish text-[18px] font-[400]">
+          <div className="font-mulish text-[16px] md:text-[18px] font-[400]">
             Say goodbye to sizing dilemmas and shopping frustrations
             <br />
             —our app ensures you find the perfect fit every time, making your
             shopping journey not only easier but also more enjoyable.
           </div>
           <div className="flex flex-col  min-[1340px]:flex-row">
-            <img src={GoogleBadge} className="w-[192px] mr-[2vw] mt-[1.5vw]" />
-            <img src={AppleBadge} className="w-[171px] mt-[1.5vw]" />
+            <img
+              src={GoogleBadge}
+              className="w-[172px] md:w-[192px] mr-[2vw] mt-[1.5vw]"
+            />
+            <img
+              src={AppleBadge}
+              className="w-[140px] md:w-[171px] mt-[1.5vw]"
+            />
           </div>
         </div>
-        <div className="flex flex-col xl:flex-row gap-[32px]">
+        <div className="flex flex-col xl:flex-row md:gap-[32px]">
           <div className="flex flex-col gap-[32px]">
             <ServicesCard
               icon={TryOnIcon}

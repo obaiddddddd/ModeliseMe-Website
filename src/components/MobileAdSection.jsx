@@ -23,7 +23,7 @@ export const MobileAdSection = () => {
             </div>
           </div>
         </div>
-        <div className="block mx-auto md:relative w-[360px]">
+        <div className="transition-all transform ease-in-out duration-300 block mx-auto md:relative w-[360px] hover:w-[380px] ">
           <img src={IphoneImg} className="md:absolute md:bottom-0 md:right-0" />
         </div>
       </div>
