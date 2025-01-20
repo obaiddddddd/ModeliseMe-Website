@@ -25,14 +25,14 @@ export const MainSection = () => {
               with Modelise Me
             </div>
           </div>
-          <div className="flex md:mt-[3rem] flex-col lg:flex-row">
+          <div className="md:mt-[3rem] flex-col lg:flex-row hidden md:flex">
             <img
               src={GoogleBadge}
-              className="w-[128px] md:w-[206px] m-1 h-auto md:m-3"
+              className="w-[128px] md:w-[183px] m-1 h-auto md:mr-3"
             />
             <img
               src={AppleBadge}
-              className="w-[128px] md:w-[183px] m-1 h-auto md:m-3"
+              className="w-[128px] m-1 md:w-[183px] h-auto"
             />
           </div>
         </div>

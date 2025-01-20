@@ -1,12 +1,8 @@
-// import { WebGiViewer } from "./WebGiViewer";
-// import { ThreeJSViewer } from "./ThreeJSViewer";
-import { ModelViewer } from "./ModelViewer";
+import { WardrobeViewer } from "./WardrobeViewer";
 export const ModelSection = () => {
   return (
     <div>
-      {/* <WebGiViewer /> */}
-      {/* <ThreeJSViewer /> */}
-      <ModelViewer />
+      <WardrobeViewer />
     </div>
   );
 };
