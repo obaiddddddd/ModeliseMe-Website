@@ -23,7 +23,7 @@ export const BodySection = () => {
           <div className="flex flex-col  min-[1340px]:flex-row">
             <img
               src={GoogleBadge}
-              className="w-[172px] md:w-[192px] mr-[2vw] mt-[1.5vw]"
+              className="w-[140px] md:w-[192px] mr-[2vw] mt-[1.5vw]"
             />
             <img
               src={AppleBadge}

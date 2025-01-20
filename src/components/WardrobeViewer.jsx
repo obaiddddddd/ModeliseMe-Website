@@ -125,8 +125,8 @@ export const WardrobeViewer = () => {
         <div className="md:w-[420px] flex justify-center ">
           <div className="m-4 w-[90%] md:m-0 flex-col flex justify-top ">
             <div className="rounded-3xl ">
-              <div className="bg-transparent font-mulish font-[600] text-[1.5em] lg:text-[2em] mt-4">
-                Sections
+              <div className="bg-transparent font-mulish font-[600] text-[1.5em] lg:text-[2em] mt-4 mb-2">
+                Select An Apparel To Try!
               </div>
               <div className="bg-white  drop-shadow-md rounded-lg pb-6">
                 <OutfitSelector
