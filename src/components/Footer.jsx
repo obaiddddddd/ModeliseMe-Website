@@ -13,13 +13,21 @@ export const Footer = () => {
           <div className="flex flex-col text-[16px] font-[400] my-auto ml-[10px] justify-center"></div>
         </div>
         <div className="flex flex-col text-[16px] text-center font-[400] md:flex-row md:gap-[12px] md:justify-center">
-          <div>About</div>
-          <div>Features</div>
-          <div>Pricing</div>
-          <div>Careers</div>
-          <div>Help</div>
-          <div>Privacy Policy</div>
-          <div>License</div>
+          <a href="/">
+            <div>Home</div>
+          </a>
+          <a href="/about">
+            <div>About</div>
+          </a>
+          <a href="/help">
+            <div>Help</div>
+          </a>
+          <a href="/privacy-policy">
+            <div>Privacy Policy</div>
+          </a>
+          <a href="/license">
+            <div>License</div>
+          </a>
         </div>
         <div className="text-[#D1D5DB] text-[14px] text-center font-[400] lg:text-left">
           © 2025 All rights reserved

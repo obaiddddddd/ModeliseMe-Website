@@ -1,13 +1,21 @@
 import { useState } from "react";
 
-export const TwitterLogo = ({ color, hoverColor }) => {
+export const TwitterLogo = ({ color, hoverColor, link }) => {
   const [clr, setClr] = useState(color);
+
+  const handleClick = () => {
+    if (link) {
+      window.open(link, "_blank");
+    }
+  };
+
   return (
     <>
       <div
         className="size-[44px] bg-[#FFFFFF14] justify-center flex items-center rounded-[5px] hover:bg-white"
         onMouseEnter={() => setClr(hoverColor)}
         onMouseLeave={() => setClr(color)}
+        onClick={handleClick}
       >
         <svg
           width="20"
