@@ -2,11 +2,8 @@ import ContactCardDesign from "../assets/ContactCardDesignCropped.png";
 import { LogoCard } from "./Cards/LogoCard";
 import ContactLogo from "../assets/ContactLogo.png";
 import EmailLogo from "../assets/EmailLogo.png";
-import LocationLogo from "../assets/LocationLogo.png";
 import { TwitterLogo } from "./Cards/TwitterLogo";
 import { FacebookLogo } from "./Cards/FacebookLogo";
-import { LinkedInLogo } from "./Cards/LinkedInLogo";
-import { DribbbleLogo } from "./Cards/DribbbleLogo";
 import { InstagramLogo } from "./Cards/InstagramLogo";
 const SupportSection = () => {
   return (
@@ -34,17 +31,12 @@ const SupportSection = () => {
                 <LogoCard
                   logo={ContactLogo}
                   title={"EMAIL US"}
-                  desc1={"info@golio.com"}
+                  desc1={"info@modeliseme.com"}
                 />
                 <LogoCard
                   logo={EmailLogo}
                   title={"PHONE NUMBER"}
-                  desc1={"+1-202-555-0138"}
-                />
-                <LogoCard
-                  logo={LocationLogo}
-                  desc1={`901 N Pitt Str., Suite`}
-                  desc2={`170 Alexandria, VA 22314, USA`}
+                  desc1={"+44-7930-604332"}
                 />
               </div>
             </div>
@@ -73,9 +65,7 @@ const SupportSection = () => {
               <div className="flex flex-row gap-[10px] mt-[12px] flex-wrap">
                 <FacebookLogo color={"white"} hoverColor={"#0B63E5"} />
                 <TwitterLogo color={"white"} hoverColor={"#0B63E5"} />
-                <LinkedInLogo color={"white"} hoverColor={"#0B63E5"} />
                 <InstagramLogo color={"white"} hoverColor={"#0B63E5"} />
-                <DribbbleLogo color={"white"} hoverColor={"#0B63E5"} />
               </div>
             </div>
           </div>

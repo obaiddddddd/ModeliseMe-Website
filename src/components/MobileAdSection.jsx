@@ -1,6 +1,6 @@
 import IphoneImg from "../assets/Iphone.png";
-import GoogleBadge from "../assets/GoogleBadge.png";
-import AppleBadge from "../assets/AppleBadge.png";
+import GoogleBadge from "../assets/GoogleBadge.svg";
+import AppleBadge from "../assets/AppleBadge.svg";
 
 export const MobileAdSection = () => {
   return (
@@ -12,7 +12,7 @@ export const MobileAdSection = () => {
           </div>
           <div className="font-[Mulish] text-[18px] font-normal leading-[28px] text-left [text-underline-position:from-font] [text-decoration-skip-ink:none] text-[#8BA2C0]">
             Download our app and enjoy the magic of virtual try-ons. Your ideal
-            wardrobe is just a tap away
+            wardrobe is just a tap away.
           </div>
           <div className="flex">
             <div className="w-[135px]">

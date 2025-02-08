@@ -22,7 +22,7 @@ export const Footer = () => {
           <div>License</div>
         </div>
         <div className="text-[#D1D5DB] text-[14px] text-center font-[400] lg:text-left">
-          © 2021 Landify UI Kit. All rights reserved
+          © 2025 All rights reserved
         </div>
       </div>
       <div className="flex items-center justify-center py-[12px] lg:flex-col lg:py-0 lg:justify-start lg:gap-[16px]">

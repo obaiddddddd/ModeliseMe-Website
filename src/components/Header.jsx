@@ -8,7 +8,7 @@ const Header = () => {
           src={logo}
           className="mr-[0.5em] size-[48px] md:size-[60px] sm:mr-[1.5rem] font-extrabold"
         />
-        <div className="text-white">Modelise Me</div>
+        <div className="text-white">ModeliseMe</div>
       </div>
     </div>
   );

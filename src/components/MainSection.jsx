@@ -1,11 +1,11 @@
 import Header from "./Header";
-import AppleBadge from "../assets/AppleBadge.png";
-import GoogleBadge from "../assets/GoogleBadge.png";
+import AppleBadge from "../assets/AppleBadge.svg";
+import GoogleBadge from "../assets/GoogleBadge.svg";
 import HumanMesh from "../assets/HumanMesh.png";
-import AIPowered from "../assets/AIPowered.png";
-import Checklist from "../assets/Checklist.png";
-import Customisation from "../assets/Customisation.png";
-import ShareModel from "../assets/ShareModel.png";
+import AIPowered from "../assets/AIPowered.svg";
+import Checklist from "../assets/Checklist.svg";
+import Customisation from "../assets/Customisation.svg";
+import ShareModel from "../assets/ShareModel.svg";
 import AIBackground from "../assets/AIBackground.png";
 
 export const MainSection = () => {
@@ -22,7 +22,7 @@ export const MainSection = () => {
               Try virtually.
             </div>
             <div className="font-mulish text-[calc(0.5em+3vw)] xl:text-[calc(0.5em+2.25vw)] font-[400]">
-              with Modelise Me
+              with ModeliseMe
             </div>
           </div>
           <div className="md:mt-[3rem] flex-col lg:flex-row hidden md:flex">

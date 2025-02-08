@@ -1,10 +1,10 @@
 import { ServicesCard } from "./ServicesCard";
-import TryOnIcon from "../assets/TryOnIcon.png";
-import SharingIcon from "../assets/SharingIcon.png";
-import SaveIcon from "../assets/SaveIcon.png";
-import SecureIcon from "../assets/SecureIcon.png";
-import AppleBadge from "../assets/AppleBadge.png";
-import GoogleBadge from "../assets/GoogleBadge.png";
+import TryOnIcon from "../assets/TryOnIcon.svg";
+import SharingIcon from "../assets/SharingIcon.svg";
+import SaveIcon from "../assets/SaveIcon.svg";
+import SecureIcon from "../assets/SecureIcon.svg";
+import AppleBadge from "../assets/AppleBadge.svg";
+import GoogleBadge from "../assets/GoogleBadge.svg";
 
 export const BodySection = () => {
   return (
@@ -15,9 +15,9 @@ export const BodySection = () => {
             {"Explore Key Features You'll Love!"}
           </div>
           <div className="font-mulish text-[16px] md:text-[18px] font-[400]">
-            Say goodbye to sizing dilemmas and shopping frustrations
-            <br />
-            —our app ensures you find the perfect fit every time, making your
+            Say goodbye to sizing dilemmas and shopping frustrations by using visualisation over imagination
+            {/* <br /> */}
+          —our app ensures you find the perfect fit and colour every time, making your
             shopping journey not only easier but also more enjoyable.
           </div>
           <div className="flex flex-col  min-[1340px]:flex-row">
