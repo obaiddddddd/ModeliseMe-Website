@@ -15,10 +15,12 @@ export const BodySection = () => {
             {"Explore Key Features You'll Love!"}
           </div>
           <div className="font-mulish text-[16px] md:text-[18px] font-[400]">
-            Say goodbye to sizing dilemmas and shopping frustrations by using visualisation over imagination
+            Say goodbye to sizing dilemmas and shopping frustrations by using
+            visualisation over imagination
             {/* <br /> */}
-          —our app ensures you find the perfect fit and colour every time, making your
-            shopping journey not only easier but also more enjoyable.
+            —our app ensures you find the perfect fit and colour every time,
+            making your shopping journey not only easier but also more
+            enjoyable.
           </div>
           <div className="flex flex-col  min-[1340px]:flex-row">
             <img
@@ -37,7 +39,7 @@ export const BodySection = () => {
               icon={TryOnIcon}
               title={"Interactive Virtual Try-On"}
               description={
-                "Transform the way you shop with our Interactive Virtual Try-On feature. Make informed choices by visualizing your favorite pieces, all from the comfort of your home."
+                "Transform the way you shop with our Interactive Virtual Try-On feature. Make informed choices by visualizing your favorite pieces, all from the comfort of your device."
               }
             />
             <ServicesCard

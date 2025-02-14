@@ -42,23 +42,7 @@ const SupportSection = () => {
             </div>
             <div className="my-[72px] ml-[72px]">
               <div className="flex items-center">
-                <div>
-                  <svg
-                    width="34"
-                    height="2"
-                    viewBox="0 0 34 2"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 1H33"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                </div>
-                <div className="ml-4 text-[16px] font-[500]">
+                <div className="ml-1 text-[16px] font-[500]">
                   Connect with us:
                 </div>
               </div>
