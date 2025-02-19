@@ -170,25 +170,6 @@ export const WardrobeViewer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-center">
-        <div className="md:w-1/2 flex justify-center flex-col">
-          {output ? (
-            <>
-              <div className="pl-4 flex justify-center font-mulish font-[600] text-[1.5em]">
-                Output
-              </div>
-              <div className="flex justify-center  mx-auto rounded-lg shadow-lg">
-                <img
-                  src={output}
-                  className="rounded-lg shadow-lg max-h-[680px]"
-                />
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
-        </div>
-      </div> */}
     </div>
   );
 };
